@@ -1,7 +1,7 @@
-● What is Emmet?
+● What is Emmet? <br/>
 it is a plug in that helps us to type code more swiftly and accurately <br/>
-● Difference between a Library and Framework? 
-Frameworks provide ready-to-use tools, standards and templates for fast application development and libraries do not
+● Difference between a Library and Framework? <br/>
+Frameworks provide ready-to-use tools, standards and templates for fast application development and libraries do not<br/>
 Frameworks control the calling of libraries for our code
 Frameworks give rules and guidelines on writing your code and structuring files and folders
 Frameworks consistent with APIs, compilers, toolsets and libraries within
