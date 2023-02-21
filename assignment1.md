@@ -1,4 +1,4 @@
-● ##What is Emmet? <br/>
+● ## What is Emmet? <br/>
 sol: it is a plug in that helps us to type code more swiftly and accurately <br/>
 ● ## Difference between a Library and Framework? <br/>
 sol: 1.Frameworks provide ready-to-use tools, standards and templates for fast application development and libraries do not<br/>
