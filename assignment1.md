@@ -1,11 +1,11 @@
 - ## What is Emmet? <br/>
 sol: it is a plug in that helps us to type code more swiftly and accurately <br/>
 - ## Difference between a Library and Framework? <br/>
-sol: 1.Frameworks provide ready-to-use tools, standards and templates for fast application development and libraries do not <br/>
-     2.Frameworks control the calling of libraries for our code <br/>
-     3.Frameworks give rules and guidelines on writing your code and structuring files and folders <br/>
-     4.Frameworks consistent with APIs, compilers, toolsets and libraries within <br/>
-     5.When you use a framework, the control is inverted, i.e., the framework controls the flow and calls your code, in contrast, libraries let you control the flow of         the application. <br/>
+sol: 1. Frameworks provide ready-to-use tools, standards and templates for fast application development <br/>
+     2. Frameworks control the calling of libraries for our code <br/>
+     3. Frameworks give rules and guidelines on writing your code and structuring files and folders <br/>
+     4. Frameworks consistent with APIs, compilers, toolsets and libraries within <br/>
+     5. When you use a framework, the control is inverted, i.e., the framework controls the flow and calls your code, in contrast, libraries let you control the flow of         the application. <br/>
 - ## What is CDN? Why do we use it? <br/>
 sol: A CDN is a content delivery network. It is a system of distributed servers that deliver web content to users based on their geographic location. CDNs are used to improve website performance by reducing latency and providing a more reliable connection. <br/>
 - ## Why is React known as React? <br/>
