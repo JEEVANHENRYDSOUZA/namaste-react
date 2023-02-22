@@ -65,6 +65,6 @@ sol:
 - ### What are props
 sol: <br/>
 1. Props is the shorthand for properties.<br/>
-2. Funactional Components are nothing but JavaScript functions.<br/>
+2. Functional Components are nothing but JavaScript functions.<br/>
 3. When we pass parameters to function then it is called as props or properties. <br/>
-4. 
+
