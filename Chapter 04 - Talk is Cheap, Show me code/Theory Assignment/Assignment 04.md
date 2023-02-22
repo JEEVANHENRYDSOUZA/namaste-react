@@ -44,9 +44,9 @@ render() {
 3.The only difference between them is that the shorthand version does not support the key attribute.<br/>
 - ### Why nesting fragments is not allowed in react 
 sol: <br/>
-1.Nesting fragments is not allowed in React because a fragment is a way to group multiple children elements without adding extra nodes to the DOM.<br/>
-2.When you nest fragments, you end up with a tree of fragments, which goes against the purpose of using fragments to avoid creating extra nodes in the DOM.<br/>
-3.In other words, fragments are meant to be used as a container for multiple elements, but they are not meant to be nested because they don't represent a real DOM node. When you nest fragments, you're essentially creating unnecessary complexity in your code, which can make it harder to read and maintain.<br/>
-4.Instead of nesting fragments, you can use other techniques to group multiple elements in a component, such as using a higher-order component or a custom component that wraps the nested elements. <br/>
-5.Alternatively, you can use an array to represent the nested elements and then map over the array to render them.<br/>
-6.Overall, while nesting fragments might seem like a convenient way to group elements, it goes against the purpose of fragments, and it's better to use alternative techniques to group multiple elements in a component.<br/>
+1. Nesting fragments is not allowed in React because a fragment is a way to group multiple children elements without adding extra nodes to the DOM.<br/>
+2. When you nest fragments, you end up with a tree of fragments, which goes against the purpose of using fragments to avoid creating extra nodes in the DOM.<br/>
+3. In other words, fragments are meant to be used as a container for multiple elements, but they are not meant to be nested because they don't represent a real DOM node. When you nest fragments, you're essentially creating unnecessary complexity in your code, which can make it harder to read and maintain.<br/>
+4. Instead of nesting fragments, you can use other techniques to group multiple elements in a component, such as using a higher-order component or a custom component that wraps the nested elements. <br/>
+5. Alternatively, you can use an array to represent the nested elements and then map over the array to render them.<br/>
+6. Overall, while nesting fragments might seem like a convenient way to group elements, it goes against the purpose of fragments, and it's better to use alternative techniques to group multiple elements in a component.<br/>
