@@ -15,11 +15,13 @@ sol: <br/>
 sol:<br/>
 1. React uses the reconcilation Algorithm  in the background.<br/>
 2. When have similar items example: <br/>
+
 ```<ul>
     <li></li>
     <li></li>
     <li></li>
 </ul>```
+
 It becomes difficult for react to understand which item has changed and only those items should be re-rendered.<br/>
 Hence we use keys as unique identification to the elements.<br/>
 
