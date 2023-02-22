@@ -74,3 +74,15 @@ sol: <br/>
 2. When the state or props of a component change, React compares the new virtual DOM tree with the previous one to identify the differences, or "diffs". It then generates a minimal set of changes to update the actual DOM to match the new virtual DOM. By only updating the necessary parts of the DOM, React minimizes the number of expensive DOM operations, such as reflows and repaints, which can improve the performance of the application.<br/>`
 
 3. The use of the virtual DOM in React is one of the key reasons for its popularity and success. It provides a fast and efficient way to update the UI, which is especially important for large and complex applications with many dynamic components. It also allows for a more declarative programming style, where the developer specifies what the UI should look like, rather than how to update it, which can make the code more readable and easier to maintain.<br/>
+
+- ### What is react fiber
+sol: <br/>
+1. React Fiber is a complete reimplementation of the React reconciliation algorithm, which is the process by which React updates the user interface in response to changes in the application state. It is designed to provide a more flexible, efficient, and incremental approach to rendering, especially for large and complex applications.<br/>
+
+2. Fiber was first introduced in React 16 as an experimental feature and is now the default reconciliation algorithm in React 18. It breaks the traditional stack-based approach of the old algorithm and introduces a new mechanism to track and manage the component updates. The core idea of Fiber is to divide the reconciliation process into smaller units of work, called "fibers," and allow React to interrupt and resume the work as needed, based on priorities and other constraints.<br/>
+
+3. One of the main benefits of React Fiber is its ability to handle complex user interfaces and long component trees with better performance and responsiveness. It can prioritize the updates based on their importance and schedule them in a way that minimizes the time to the first meaningful paint. This can result in a smoother and more responsive user experience, especially on low-powered devices and slow networks.<br/>
+
+4. Another benefit of React Fiber is its support for asynchronous rendering and suspense, which allows developers to render part of the user interface incrementally, as data becomes available. This can improve the perceived performance of the application and reduce the time to interactive, which is a critical metric for user engagement.<br/>
+
+5. Overall, React Fiber is an important and innovative feature of React that improves the performance and flexibility of the framework, especially for large and complex applications. <br/>
