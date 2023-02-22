@@ -62,4 +62,9 @@ sol:
  -  Greater consistency: by using a common set of configuration settings, it is possible to ensure that the UI is consistent across different screens and applications.<br/>
   - Better separation of concerns: separating the UI design from the code makes it easier to manage changes and updates to the UI separately from the underlying functionality.<br/>
 4.  Overall, a configuration-driven UI can be a powerful tool for creating more flexible, adaptable, and maintainable user interface <br/>
-
+- ### What are props
+sol: <br/>
+1. Props is the shorthand for properties.<br/>
+2. Funactional Components are nothing but JavaScript functions.<br/>
+3. When we pass parameters to function then it is called as props or properties. <br/>
+4. 
