@@ -26,4 +26,18 @@ sol:<br/>
 
 It becomes difficult for react to understand which item has changed and only those items should be re-rendered.<br/>
 Hence we use keys as unique identification to the elements.<br/>
-
+- ### React.fragment vs ```<></>```
+sol: <br/>
+1.<> is the shorthand tag for React.Fragment which allows us to group a list of elements without wrapping them in a new node.<br/>
+```
+render() {
+    return (
+        <>
+            <Header />
+            <Navigation />
+            <Main />
+            <Footer />
+        </>
+    );
+}```
+3.The only difference between them is that the shorthand version does not support the key attribute.<br/>
