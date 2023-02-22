@@ -50,3 +50,16 @@ sol: <br/>
 4. Instead of nesting fragments, you can use other techniques to group multiple elements in a component, such as using a higher-order component or a custom component that wraps the nested elements. <br/>
 5. Alternatively, you can use an array to represent the nested elements and then map over the array to render them.<br/>
 6. Overall, while nesting fragments might seem like a convenient way to group elements, it goes against the purpose of fragments, and it's better to use alternative techniques to group multiple elements in a component.<br/>
+- ### What is Config Driven UI
+sol:
+1. A configuration-driven UI is a user interface that is designed and generated based on a configuration or settings file, rather than being hand-coded. In this approach, the layout and functionality of the UI is determined by a configuration file or some kind of data structure, which allows developers to easily modify or customize the UI without having to modify the underlying code.<br/>
+2. The idea behind a configuration-driven UI is to make it easier to create and maintain user interfaces, particularly for complex applications that have many different screens and user interactions. By separating the UI design from the code, it is possible to create more flexible and dynamic interfaces that can be easily customized and adapted to different use cases. <br/>
+
+3. Some of the benefits of a configuration-driven UI include: <br/>
+
+ - Easier customization: developers can modify the UI by simply changing the configuration file, without having to modify the code.<br/>
+ - Faster development: since the UI is generated automatically based on the configuration file, developers can create new UIs more quickly and with fewer errors.<br/>
+ -  Greater consistency: by using a common set of configuration settings, it is possible to ensure that the UI is consistent across different screens and applications.<br/>
+  - Better separation of concerns: separating the UI design from the code makes it easier to manage changes and updates to the UI separately from the underlying functionality.<br/>
+  - Overall, a configuration-driven UI can be a powerful tool for creating more flexible, adaptable, and maintainable user interface <br/>
+
