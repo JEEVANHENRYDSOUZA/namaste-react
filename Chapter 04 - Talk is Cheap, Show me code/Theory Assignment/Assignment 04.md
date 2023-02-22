@@ -9,8 +9,8 @@ sol : <br/>
 3. ```{<TitleComponent></TitleComponent>}``` represents normal tags.<br/>
 - ### What is reconcilation Algorithm? <br/>
 sol: <br/>
-1.The “reconciliation” algorithm in React is how the decision to re-render the component is made. In the browser, DOM manipulation is expensive and time consuming, both in mounting and unmounting. Part of what makes React very performant is its reconciliation algorithm.<br/>
-2.In short, it watches closely for differences, and only updates the DOM when necessary and tries to update only the parts which need to be changed.<br/>
+1. The “reconciliation” algorithm in React is how the decision to re-render the component is made. In the browser, DOM manipulation is expensive and time consuming, both in mounting and unmounting. Part of what makes React very performant is its reconciliation algorithm.<br/>
+2. In short, it watches closely for differences, and only updates the DOM when necessary and tries to update only the parts which need to be changed.<br/>
 - ### Why do we need keys in react ? <br/>
 sol:<br/>
 1. React uses the reconcilation Algorithm  in the background.<br/>
