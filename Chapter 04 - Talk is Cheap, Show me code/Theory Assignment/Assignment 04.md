@@ -39,5 +39,6 @@ render() {
             <Footer />
         </>
     );
-}```
+}
+```
 3.The only difference between them is that the shorthand version does not support the key attribute.<br/>
