@@ -70,5 +70,7 @@ sol: <br/>
 - ### What is Virtual Dom
 sol: <br/>
 1. In React, the virtual DOM is a lightweight representation of the actual DOM, which allows React to efficiently update and render components. When a React component is rendered, it creates a virtual DOM tree in memory that represents the structure of the actual DOM. The virtual DOM tree is a plain JavaScript object that describes the components, their attributes, and their relationships.<br/>
+
 2. When the state or props of a component change, React compares the new virtual DOM tree with the previous one to identify the differences, or "diffs". It then generates a minimal set of changes to update the actual DOM to match the new virtual DOM. By only updating the necessary parts of the DOM, React minimizes the number of expensive DOM operations, such as reflows and repaints, which can improve the performance of the application.<br/>`
+
 3. The use of the virtual DOM in React is one of the key reasons for its popularity and success. It provides a fast and efficient way to update the UI, which is especially important for large and complex applications with many dynamic components. It also allows for a more declarative programming style, where the developer specifies what the UI should look like, rather than how to update it, which can make the code more readable and easier to maintain.<br/>
