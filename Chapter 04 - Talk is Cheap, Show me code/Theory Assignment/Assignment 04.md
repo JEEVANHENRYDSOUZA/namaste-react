@@ -61,5 +61,5 @@ sol:
  - Faster development: since the UI is generated automatically based on the configuration file, developers can create new UIs more quickly and with fewer errors.<br/>
  -  Greater consistency: by using a common set of configuration settings, it is possible to ensure that the UI is consistent across different screens and applications.<br/>
   - Better separation of concerns: separating the UI design from the code makes it easier to manage changes and updates to the UI separately from the underlying functionality.<br/>
-  - Overall, a configuration-driven UI can be a powerful tool for creating more flexible, adaptable, and maintainable user interface <br/>
+4.  Overall, a configuration-driven UI can be a powerful tool for creating more flexible, adaptable, and maintainable user interface <br/>
 
