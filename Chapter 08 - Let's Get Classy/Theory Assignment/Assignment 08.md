@@ -65,4 +65,5 @@ class MyComponent extends React.Component {
   }
 }
 ``` 
-
+- ### Class Based Component Life cycle <br/>
+sol: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ <br/>
