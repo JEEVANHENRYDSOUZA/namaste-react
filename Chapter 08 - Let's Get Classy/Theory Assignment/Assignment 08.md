@@ -67,3 +67,17 @@ class MyComponent extends React.Component {
 ``` 
 - ### Class Based Component Life cycle <br/>
 sol: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ <br/>
+- ### React Class based component LifeCyle<br/>
+sol:<br/>
+## ```mounting phase```
+1. parent constructor<br/>
+2. parent render<br/>
+3. child contructor<br/>
+4.  child render<br/>
+## ``` commit phase```
+1. child component did mount <br/>
+## ``` updating phase if child made api call```
+1. child render<br/>
+2. child component did update<br/>
+## ``` parent commit```
+1. parent component did mount<br/>
