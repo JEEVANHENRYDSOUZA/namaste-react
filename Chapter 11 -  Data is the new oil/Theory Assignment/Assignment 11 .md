@@ -14,3 +14,4 @@ sol: <br/>
      1. The context provider, represented by the Context. <br/>
      2. Provider component, is responsible for creating a context and supplying the data or state to its child components. <br/>
      3. It acts as a parent component that encapsulates a subtree of components that need access to the shared data.<br/>
+     4. Also we can override the defualt value that we have given to the context. <br/>
