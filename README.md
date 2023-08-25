@@ -1,1 +1,1 @@
-# namaste-react by akshay saini
+# namaste-react by akshay saini dec 02 batch with youtube clone project
